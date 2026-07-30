@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body bgcolor="cornsilk">
+    <h1 align="center">Student Registration Form</h1>
+    <hr>
+    <form>
+        <h2><i>Personal Details</i></h2>
+        <label><b>Full Name:</b></label><br>
+        <input type="text" name="fullname" placeholder="Enter your name">
+        <br><br>
+        <label><b>Email Address:</b></label><br>
+        <input type="email" name="email" placeholder="Enter your email">
+        <br><br>
+        <label><b>Create Password:</b></label><br>
+        <input type="password" name="password">
+        <br><br>
+        <label><b>Date of Birth:</b></label><br>
+        <input type="date" name="dob">
+        <br><br>
+        <label><b>Gender:</b></label><br>
+        <input type="radio" name="gender" value="Male"> Male <br>
+        <input type="radio" name="gender" value="Female"> Female <br>
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+        <hr>
+        <h2><i>Academic Information</i></h2>
+        <label><b>Course Interested:</b></label><br>
+        <select name="course">
+            <option>B.Sc Computer Science</option>
+            <option>BCA</option>
+            <option>B.Tech Information Technology</option>
+            <option>M.Sc 5 Year Integrated Computer Science</option>
+            <option>MCA</option>
+        </select>
+        <br><br>
+        <label><b>Preferred Mode of Study:</b></label><br>
+        <input type="checkbox" name="mode" value="Online"> Online <br>
+        <input type="checkbox" name="mode" value="Offline"> Offline <br>
+        <input type="checkbox" name="mode" value="Hybrid"> Hybrid
+        <br><br>
+        <hr>
+        <h2><i>Other Details</i></h2>
+        <label><b>Upload Your Photo:</b></label><br>
+        <input type="file" name="photo">
+        <br><br>
+        <label><b>Any Doubts?</b></label><br>
+        <textarea rows="5" cols="40" placeholder="Type your doubts here..."></textarea>
+        <br><br>
+        <center>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </center>
+    </form>
+</body>
+</html>
